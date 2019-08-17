@@ -1,0 +1,75 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <changeSet author="thaka (generated)" id="1563184841723-1">
+        <dropTable tableName="item_items"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563184841723-2">
+        <dropTable tableName="item_templates"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563184841723-3">
+        <dropTable tableName="stock_change_item_quantities"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563184841723-4">
+        <dropTable tableName="stock_move"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563184841723-5">
+        <dropTable tableName="stock_warehouse"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563249882230-1">
+        <dropForeignKeyConstraint baseTableName="item_items" constraintName="fkiqwdo6lvsr6iofw3ufvptgawl"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563249882230-2">
+        <dropTable tableName="item_attributes"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563249882230-3">
+        <dropTable tableName="item_items"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563249882230-4">
+        <dropTable tableName="item_templates"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563249882230-5">
+        <dropTable tableName="stock_change_item_quantities"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563249882230-6">
+        <dropTable tableName="stock_move"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563249882230-7">
+        <dropTable tableName="stock_warehouse"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-1">
+        <dropForeignKeyConstraint baseTableName="item_item_item_attribute_rel" constraintName="fk4eoppjnu17sfsmdyg2u2ddhad"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-2">
+        <dropForeignKeyConstraint baseTableName="item_item_item_attribute_rel" constraintName="fk64g194stgqcnmr9wsg36slkkk"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-3">
+        <dropForeignKeyConstraint baseTableName="item_items" constraintName="fkiqwdo6lvsr6iofw3ufvptgawl"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-4">
+        <dropForeignKeyConstraint baseTableName="item_items" constraintName="fkjal71dpfvr9pb9bilca6bgal3"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-5">
+        <dropForeignKeyConstraint baseTableName="item_item_item_attribute_rel" constraintName="fkoq52hhmlnqcrmsrakdxe3652j"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-6">
+        <dropTable tableName="item_attributes"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-7">
+        <dropTable tableName="item_item_item_attribute_rel"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-8">
+        <dropTable tableName="item_items"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-9">
+        <dropTable tableName="item_templates"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-10">
+        <dropTable tableName="stock_change_item_quantities"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-11">
+        <dropTable tableName="stock_move"/>
+    </changeSet>
+    <changeSet author="thaka (generated)" id="1563418612905-12">
+        <dropTable tableName="stock_warehouse"/>
+    </changeSet>
+</databaseChangeLog>
